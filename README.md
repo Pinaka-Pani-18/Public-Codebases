@@ -45,9 +45,9 @@ We welcome contributions from developers of all backgrounds and experience level
 
 ## Community
 
-Join our growing community and connect with developers from around the world:
+Join our community on Telegram to ask your questions or any other related queries.
 
-- [Chat Rooms](https://discord.gg/YgUySdJC)
+- [Discussion Channel](https://t.me/AllAboutOpenSource)
 
 ## License
 
