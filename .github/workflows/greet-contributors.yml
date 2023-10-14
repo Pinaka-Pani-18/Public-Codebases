@@ -3,7 +3,7 @@ name: Greet Contributor
 on:
   issues:
     types: [opened]
-  pull_request_target:
+  pull_request:
     types: [opened]
 
 jobs:
@@ -24,10 +24,11 @@ jobs:
 
                 Soon the maintainers/owner will review it and offer feedback and suggestions. If you enjoy contributing to the project, please consider giving it a star ⭐.`
             })
+
   welcome-pull_request:
     permissions: write-all
     runs-on: ubuntu-latest
-    if: ${{ github.event_name == 'pull_request_target' }}
+    if: ${{ github.event_name == 'pull_request' }}
     steps:
       - uses: actions/github-script@v6
         if: ${{ github.event.sender.login != github.repository_owner }}
@@ -41,4 +42,3 @@ jobs:
 
                 Soon the maintainers/owner will review it and offer feedback and suggestions. If you enjoy contributing to the project, please consider giving it a star ⭐.`
             })
-
