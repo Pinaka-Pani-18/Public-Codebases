@@ -1,5 +1,4 @@
-import React, { useState } from "react";
-import Logo from "../assets/logo_github_project_hub.png";
+import { useState } from "react";
 import { Link } from "react-router-dom";
 export default function Header() {
   let Links = [
@@ -15,11 +14,7 @@ export default function Header() {
           className="font-bold text-2xl cursor-pointer flex items-center font-[Poppins] 
           text-white"
         >
-          <img
-            src={Logo}
-            alt="Logo GitHub Project Hub"
-            className="w-20 h-16 mr-2 ml-2"
-          />
+          <img src="" alt="Logo" className="w-20 h-16 mr-2 ml-2" />
           Public Codebases
         </div>
 

@@ -1,6 +1,3 @@
-import React from "react";
-import Logo from "../assets/logo_github_project_hub.png";
-
 const footerLinks = [
   {
     label: "GitHub",
@@ -29,11 +26,7 @@ export const Footer = () => {
     <footer className="bg-gray-800 text-white py-5">
       <div className="max-w-screen-xl mx-auto flex justify-between items-center px-4">
         <div>
-          <img
-            src={Logo}
-            alt="Logo GitHub Project Hub"
-            className="max-w-[75px]"
-          />
+          <img src="" alt="Logo" className="max-w-[75px]" />
         </div>
         <div>
           <ul className="list-none p-0 flex flex-wrap justify-end">
