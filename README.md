@@ -4,7 +4,7 @@
 
 **Welcome to Public Codebases!** 🎉
 
-Public Codebases is an open-source platform dedicated to curating and showcasing a diverse collection of projects participating in the annual Hacktoberfest event. Hacktoberfest is a global celebration of open source software where contributors from all around the world come together to support and contribute to open source projects.
+Public Codebases is a open source platform that gathers and displays a wide variety of open-source projects in one place for people to explore and learn.
 
 ## Table of Contents
 
