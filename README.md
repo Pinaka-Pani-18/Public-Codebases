@@ -1,6 +1,6 @@
 # Public Codebases
 
-![Public Codebases Logo](place_the_logo_link_here)
+![Public Codebases Logo](./public/assets/logo_transparent.png)
 
 **Welcome to Public Codebases!** 🎉
 
