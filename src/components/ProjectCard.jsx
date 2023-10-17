@@ -41,7 +41,7 @@ const ProjectCard = () => {
         </div>
       </div>
 
-      <div className="card-footer flex flex-row justify-center items-center gap-10 mt-2">
+      <div className="card-footer flex flex-row justify-center items-center gap-4 mt-2">
         <div className="border rounded-lg w-5/12 h-20 flex flex-row gap-1 items-center px-2">
           <div className="logo w-1/4 rounded-full">
             <img src="/star2.png" alt="star" className="relative" />
@@ -49,6 +49,15 @@ const ProjectCard = () => {
           <div className="w-1/2">
             <p className="font-semibold text-xl">10000</p>
             <p>stars</p>
+          </div>
+        </div>
+        <div className="border rounded-lg w-5/12 h-20 flex flex-row gap-1 items-center px-2">
+          <div className="logo w-1/4 rounded-full">
+            <img src="/fork.png" alt="star" className="relative" />
+          </div>
+          <div className="w-1/2">
+            <p className="font-semibold text-xl">250</p>
+            <p>forks</p>
           </div>
         </div>
         <div className="border rounded-lg w-5/12 h-20 flex flex-row gap-1 items-center px-2">
