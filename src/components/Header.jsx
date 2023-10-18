@@ -34,7 +34,7 @@ export default function Header() {
             <li key={link.name} className="md:ml-8 text-xl md:my-0 my-7">
               <Link
                 to={link.link}
-                className="text-white hover:text-blue-400 duration-500"
+                className="text-white hover:text-blue-400 duration-500 font-bold text-2xl font-[Poppins]"
               >
                 {link.name}
               </Link>
