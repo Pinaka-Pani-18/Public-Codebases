@@ -1,6 +1,6 @@
 import React from "react";
 
-const ProjectCard = () => {
+const ProjectCard = (props) => {
   return (
     <div className="card w-80 sm:w-96 h-fit flex flex-col border-1 rounded-lg overflow-hidden px-2 py-4 hover:scale-105 transition duration-300 bg-gradient-to-t from-[#654b0e] via-[#947511] to-[#ebd812] shadow-xl">
       <a href="https://hacktoberfestprojectshub.netlify.app/" target="_blank">
