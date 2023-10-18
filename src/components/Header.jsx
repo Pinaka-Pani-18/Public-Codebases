@@ -42,7 +42,7 @@ export default function Header() {
           ))}
           <a href="https://github.com/Pinaka-Pani-18/Hacktoberfest-Projects-Hub">
             <button
-              className="bg-blue-800 text-white text-xl font-[Poppins] py-2 px-6 rounded md:ml-8 hover:bg-blue-600 
+              className="bg-blue-800 text-white text-xl py-2 px-6 rounded md:ml-8 hover:bg-blue-600 
     duration-500"
             >
               <div className="inline text-2xl relative top-1 mr-2">
