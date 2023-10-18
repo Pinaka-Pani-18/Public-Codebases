@@ -11,7 +11,7 @@ export default function Header() {
     <div className="shadow-md z-10 w-full fixed top-0 left-0">
       <div className="md:flex items-center justify-between bg-gray-800 text-white py-4 md:px-10 px-7">
         <div
-          className="font-bold text-2xl cursor-pointer flex items-center font-[Poppins] 
+          className="font-bold text-2xl cursor-pointer flex items-center 
           text-white"
         >
           <img src="" alt="Logo" className="w-20 h-16 mr-2 ml-2" />
@@ -34,7 +34,7 @@ export default function Header() {
             <li key={link.name} className="md:ml-8 text-xl md:my-0 my-7">
               <Link
                 to={link.link}
-                className="text-white hover:text-blue-400 duration-500 font-bold text-2xl font-[Poppins]"
+                className="text-white hover:text-blue-400 duration-500"
               >
                 {link.name}
               </Link>
