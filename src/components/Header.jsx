@@ -14,7 +14,7 @@ export default function Header() {
           className="font-bold text-2xl cursor-pointer flex items-center 
           text-white"
         >
-          <img src="" alt="Logo" className="w-20 h-16 mr-2 ml-2" />
+          <img src="assets/logo_transparent.png" alt="Logo" className="w-20 h-16 mr-2 ml-2" />
           Public Codebases
         </div>
 
