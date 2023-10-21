@@ -1,23 +1,23 @@
 const footerLinks = [
   {
     label: "GitHub",
-    url: "https://github.com/Pinaka-Pani-18/Hacktoberfest-Projects-Hub",
+    url: "https://github.com/Pinaka-Pani-18/Public-Codebases",
   },
   {
     label: "Contributing",
-    url: "https://github.com/Pinaka-Pani-18/Hacktoberfest-Projects-Hub/blob/main/CONTRIBUTING.md",
+    url: "https://github.com/Pinaka-Pani-18/Public-Codebases/blob/main/CONTRIBUTING.md",
   },
   {
     label: "Contact",
-    url: "https://github.com/Pinaka-Pani-18/Hacktoberfest-Projects-Hub/issues/new/choose",
+    url: "https://github.com/Pinaka-Pani-18/Public-Codebases/issues/new/choose",
   },
   {
     label: "Privacy Policy",
-    url: "https://github.com/Pinaka-Pani-18/Hacktoberfest-Projects-Hub/blob/main/LICENSE",
+    url: "https://github.com/Pinaka-Pani-18/Public-Codebases/blob/main/LICENSE",
   },
   {
     label: "Terms of Service",
-    url: "https://github.com/Pinaka-Pani-18/Hacktoberfest-Projects-Hub/blob/main/CODE_OF_CONDUCT.md",
+    url: "https://github.com/Pinaka-Pani-18/Public-Codebases/blob/main/CODE_OF_CONDUCT.md",
   },
 ];
 

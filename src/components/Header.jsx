@@ -40,7 +40,7 @@ export default function Header() {
               </Link>
             </li>
           ))}
-          <a href="https://github.com/Pinaka-Pani-18/Hacktoberfest-Projects-Hub">
+          <a href="https://github.com/Pinaka-Pani-18/Public-Codebases" target="_blank">
             <button
               className="bg-blue-800 text-white text-xl py-2 px-6 rounded md:ml-8 hover:bg-blue-600 
     duration-500"
