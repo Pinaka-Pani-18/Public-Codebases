@@ -13,32 +13,24 @@ const ProjectCard = (props) => {
             />
           </div>
           <p className="relative font-semibold text-xl hover:text-white transition duration-300 hover:underline">
-            hack-it-up
+            {props.name}
           </p>
         </div>
       </a>
 
       <div className="description w-full text-left px-2 my-1 mt-4 text-lg">
-        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quibusdam
-        itaque a laudantium enim repudiandae iste.
+        {props.description}
       </div>
 
       <div className="tech-stack flex flex-row flex-wrap gap-2 px-2 w-full mt-4 mb-8">
-        <div className="relative bg-sky-600 rounded-2xl px-3 py-1 text-white cursor-pointer">
-          hacktoberfest
-        </div>
-        <div className="relative bg-sky-600 rounded-2xl px-3 py-1 text-white cursor-pointer">
-          http-client
-        </div>
-        <div className="relative bg-sky-600 rounded-2xl px-3 py-1 text-white cursor-pointer">
-          javascript
-        </div>
-        <div className="relative bg-sky-600 rounded-2xl px-3 py-1 text-white cursor-pointer">
-          nodejs
-        </div>
-        <div className="relative bg-sky-600 rounded-2xl px-3 py-1 text-white cursor-pointer">
-          promise
-        </div>
+        {props.tags?.slice(0, 5).map((item) => (
+          <div
+            key={item}
+            className="relative bg-sky-600 rounded-2xl px-3 py-1 text-white cursor-pointer"
+          >
+            {item}
+          </div>
+        ))}
       </div>
 
       <div className="card-footer flex flex-row justify-center items-center gap-4 mt-2">
@@ -47,7 +39,7 @@ const ProjectCard = (props) => {
             <img src="/star2.png" alt="star" className="relative" />
           </div>
           <div className="w-1/2">
-            <p className="font-semibold text-xl">10000</p>
+            <p className="font-semibold text-xl">{props.stars}</p>
             <p>stars</p>
           </div>
         </div>
@@ -56,7 +48,7 @@ const ProjectCard = (props) => {
             <img src="/fork.png" alt="star" className="relative" />
           </div>
           <div className="w-1/2">
-            <p className="font-semibold text-xl">250</p>
+            <p className="font-semibold text-xl">{props.forks}</p>
             <p>forks</p>
           </div>
         </div>
@@ -65,7 +57,7 @@ const ProjectCard = (props) => {
             <img src="/radio2.png" alt="issue" className="relative" />
           </div>
           <div className="w-1/2">
-            <p className="font-semibold text-xl">560</p>
+            <p className="font-semibold text-xl">{props.issues}</p>
             <p>issues</p>
           </div>
         </div>
