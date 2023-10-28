@@ -23,9 +23,9 @@ export default function Header() {
           className="font-bold text-2xl cursor-pointer flex items-center text-white"
         >
           <img
-            src="/your-icon.png" // Replace with your icon source
+            src="src\images\logo.png" // Replace with your icon source
             alt="Logo"
-            className="w-20 h-16 mr-2 ml-2"
+            className="w-17 h-16 mr-2 ml-2"
           />
           Public Codebases
         </div>

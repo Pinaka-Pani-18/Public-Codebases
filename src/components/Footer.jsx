@@ -26,7 +26,11 @@ export const Footer = () => {
     <footer className="bg-gray-800 text-white py-5">
       <div className="max-w-screen-xl mx-auto flex justify-between items-center px-4">
         <div>
-          <img src="" alt="Logo" className="max-w-[75px]" />
+        <img
+            src="src\images\logo.png" // Replace with your icon source
+            alt="Logo"
+            className="w-17 h-16 mr-2 ml-2"
+          />
         </div>
         <div>
           <ul className="list-none p-0 flex flex-wrap justify-end">
