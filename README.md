@@ -158,6 +158,10 @@ Join our community on Telegram to ask your questions or any other related querie
 ## Future Design
 Header: Here is the link of the figma file: https://www.figma.com/file/M1LU8jeckUflI7qOUmNLYz/PUBLIC-CODEBASES?type=design&node-id=0%3A1&mode=design&t=fD37wuHUJQuyYys1-1
 
+
+Here is the design including the CONTRIBUTORS PAGE:
+https://www.figma.com/file/M1LU8jeckUflI7qOUmNLYz/PUBLIC-CODEBASES?type=design&node-id=0%3A1&mode=design&t=eRHG5O8jje2QtAc2-1
+
 ## License
 
 This project is licensed under the [MIT License](LICENSE).
