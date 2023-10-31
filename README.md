@@ -159,7 +159,7 @@ Join our community on Telegram to ask your questions or any other related querie
 Header: Here is the link of the figma file: https://www.figma.com/file/M1LU8jeckUflI7qOUmNLYz/PUBLIC-CODEBASES?type=design&node-id=0%3A1&mode=design&t=fD37wuHUJQuyYys1-1
 
 ## Contributors Page
-https://www.figma.com/file/MVG9ENzEENlN1jJjiuoMsr/Untitled?type=design&mode=design&t=rBQKMc7YeVIoXtT8-1
+Header: https://www.figma.com/file/MVG9ENzEENlN1jJjiuoMsr/Untitled?type=design&mode=design&t=rBQKMc7YeVIoXtT8-1
 
 ## License
 
