@@ -19,3 +19,5 @@ Describe the proposed changes or improvements to the documentation.
 **Labels**
 
 Please add appropriate labels to this issue: `documentation`, `needs-triage`, etc.
+
+* [ ] Are you willing to work on this issue?
