@@ -34,6 +34,8 @@ Add any other context about the problem here.
 
 **Possible Solution**
 
+* [ ] Are you willing to work on this issue?
+
 (Optional) If you have a possible solution or workaround for the bug, please describe it.
 
 **Your Environment**
